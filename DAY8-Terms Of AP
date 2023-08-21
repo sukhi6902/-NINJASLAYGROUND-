@@ -1,0 +1,32 @@
+from os import *
+from sys import *
+from collections import *
+from math import *
+
+def termsOfAP(x):
+
+ 
+
+    # Write your code here
+
+    series=[]
+
+    num=1
+
+ 
+
+    while len(series)<x:
+
+        term=(3*num)+2
+
+        if term%4!=0:
+
+            series.append(term)
+
+        num+=1
+
+ 
+
+    return series
+
+https://www.codingninjas.com/studio/problems/terms-of-ap_9065116?challengeSlug=ninja-slayground
